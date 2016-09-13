@@ -28,23 +28,23 @@ $aboutme ='20 centimeters'; ?>
         <h1>Shortly about myself</h1>
         <dl>
             <dt>Name</dt>
-            <dd><?php echo $name;?></dd>
+            <dd><?= $name;?></dd>
         </dl>
         <dl>
             <dt>Age</dt>
-            <dd><?php echo $age;?></dd>
+            <dd><?= $age;?></dd>
         </dl>
         <dl>
             <dt>E-mail</dt>
-            <dd><?php echo $email;?></a></dd>
+            <dd><?= $email;?></a></dd>
         </dl>
         <dl>
             <dt>City</dt>
-            <dd><?php echo $city;?></dd>
+            <dd><?= $city;?></dd>
         </dl>
         <dl>
             <dt>About me</dt>
-            <dd><?php echo $aboutme;?></dd>
+            <dd><?= $aboutme;?></dd>
         </dl>
     </body>
 </html>
